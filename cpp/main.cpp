@@ -175,7 +175,7 @@ int main()
   // a
   auto start = std::chrono::high_resolution_clock::now();
 
-  std::ifstream input_file("annual-enterprise-survey-2023-financial-year-"
+  std::ifstream input_file("../annual-enterprise-survey-2023-financial-year-"
                            "provisional-size-bands.csv");
 
   if (!input_file.is_open())
